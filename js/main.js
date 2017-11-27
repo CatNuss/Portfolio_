@@ -1,8 +1,8 @@
-$(window).on('load', function() { // makes sure the whole site is loaded 
-  $('#status').delay(1000).fadeOut('slow'); // will first fade out the loading animation 
-  $('#preloader').delay(1350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  $('body').delay(1500).css({'overflow':'visible'}).fadeIn('slow');
-})
+//$(window).on('load', function() { // makes sure the whole site is loaded 
+ // $('#status').delay(1000).fadeOut('slow'); // will first fade out the loading animation 
+ // $('#preloader').delay(1350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+ // $('body').delay(1500).css({'overflow':'visible'}).fadeIn('slow');
+//})
 //contact animate
 
 $(document).ready(function(){
