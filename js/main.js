@@ -117,21 +117,21 @@ $(document).ready(function(){
     };
     
     
-    loop1();
-//COMMET ANIMATE
-    function loop1() {
-            $("#commet2").css({"right":"700px", "top":"-200px"});
-            $("#commet2").delay(15000).animate({right: '2000', top: '2000'},6000, "linear", function(){ loop1() });
-    };
-    
-
-    
-    loop2();
-//COMMET ANIMATE
-    function loop2() {
-            $("#commet3").css({"right":"40px", "top":"-200px"});
-            $("#commet3").delay(20000).animate({right: '2000', top: '2000'},6000, "linear", function(){ loop2() });
-    };
+//    loop1();
+////COMMET ANIMATE
+//    function loop1() {
+//            $("#commet2").css({"right":"700px", "top":"-200px"});
+//            $("#commet2").delay(15000).animate({right: '2000', top: '2000'},6000, "linear", function(){ loop1() });
+//    };
+//    
+//
+//    
+//    loop2();
+////COMMET ANIMATE
+//    function loop2() {
+//            $("#commet3").css({"right":"40px", "top":"-200px"});
+//            $("#commet3").delay(20000).animate({right: '2000', top: '2000'},6000, "linear", function(){ loop2() });
+//    };
     
     
 //GALLERY 
