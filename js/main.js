@@ -109,12 +109,15 @@ $(document).ready(function(){
         });
     
 
-    loop();
+    $(document).ready(function(){
+        loop();
 //COMMET ANIMATE
     function loop() {
             $("#commet").css({"right":"300px", "top":"-200px"});
             $("#commet").delay(10000).animate({right: '2000', top: '2000'},6000, "linear", function(){ loop() });
     };
+        
+    });
     
     
 //    loop1();
