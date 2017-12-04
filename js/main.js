@@ -9,6 +9,7 @@ $(document).ready(function(){
     animateDiv('.contact');
 });
 
+
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
@@ -275,13 +276,5 @@ $(document).ready(function(){
         }
         $('.nextvid').attr('disabled', null);
     });
-    
-//    $('.nextvid').click(function(){
-//       $('.currentvid').fadeOut("slow", "linear"); 
-//    });
-//    
-//    $('.prevvid').click(function(){
-//       $('.currentvid').fadeIn("slow", "linear"); 
-//    });
-    
+
 });
