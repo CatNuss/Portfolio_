@@ -61,11 +61,10 @@ form {
     justify-content: center;
 }
 
-.info, .email, .phone {
-    text-align: right;
+.info {
     padding: 10px;
     height: auto;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .formlabel {
@@ -158,10 +157,15 @@ input[type=submit]:hover {
     padding: 5px;
 }
 
-table#t01 th:first-child {
+table#t01 th {
     text-align: center;
     padding-bottom: 10px;
 }
+
+table#t01 tr:nth-child(1), tr:nth-child(2)  {
+    font-size: 0.8em;
+}
+
 
 
 
