@@ -158,12 +158,12 @@ input[type=submit]:hover {
     padding: 5px;
 }
 
-table#t01 th:first-child {
-    text-align: center;
+table#01 th {
+    padding: 20px;
 }
 
-table#01 th {
-    padding: 10px;
+table#t01 th:first-child {
+    text-align: center;
 }
 
 
