@@ -157,3 +157,7 @@ input[type=submit]:hover {
     font-size: 1em;
     padding: 5px;
 }
+
+#tablehead {
+    width: 100%;
+}
